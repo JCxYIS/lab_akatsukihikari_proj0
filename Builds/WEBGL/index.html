@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | lab_akatsukinohikari_proj0</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #518053"></canvas>
+    <script src="Build/WEBGL.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WEBGL.data",
+        frameworkUrl: "Build/WEBGL.framework.js",
+        codeUrl: "Build/WEBGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "JCxYIS",
+        productName: "lab_akatsukinohikari_proj0",
+        productVersion: "0.1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>
