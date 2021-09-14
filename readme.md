@@ -21,5 +21,6 @@ How to play
 WASD/方向鍵 移動
 滑鼠 控制角度
 
-Timelapse
+Development Timelapse
 ---
+https://youtu.be/W4q91P6lnTM
